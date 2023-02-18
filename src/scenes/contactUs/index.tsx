@@ -18,6 +18,8 @@ const ContactUs = ({ setSelectedPage }: Props) => {
         formState: { errors },
     } = useForm();
 
+    console.log(useForm())
+
     const onSubmit = async (e: any) => {
         const isValid = await trigger();
         if (!isValid) {
@@ -68,7 +70,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                         <form
                             target="_blank"
                             onSubmit={onSubmit}
-                            action="https://formsubmit.co/e8a5bdfa807605332f809e5656e27c6e"
+                            action="https://formsubmit.co/57e173e0d6bacb4f24ae5f27f42e0bfe "
                             method="POST"
                         >
                             <input
