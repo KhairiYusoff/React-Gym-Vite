@@ -68,10 +68,7 @@ const OurClasses = ({ setSelectedPage }: Props) => {
                     <div className="md:w-3/5">
                         <HText>OUR CLASSES</HText>
                         <p className="py-5">
-                            Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                            tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                            facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                            enim mattis odio in risus nunc.
+                            Yoga Flow: Find your balance and inner peace with Yoga Flow. Perfect for all levels, this class emphasizes flexibility, strength, and mindfulness.
                         </p>
                     </div>
                 </motion.div>
