@@ -13,7 +13,7 @@ const classes: Array<ClassType> = [
     {
         name: "Weight Training Classes",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "TBA",
         image: image1,
     },
     {
@@ -23,13 +23,13 @@ const classes: Array<ClassType> = [
     {
         name: "Ab Core Classes",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "TBA",
         image: image3,
     },
     {
         name: "Adventure Classes",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "Adventure Classes",
         image: image4,
     },
     {
@@ -39,7 +39,7 @@ const classes: Array<ClassType> = [
     {
         name: "Training Classes",
         description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "TBA",
         image: image6,
     },
 ];
