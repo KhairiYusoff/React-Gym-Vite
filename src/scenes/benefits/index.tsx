@@ -15,19 +15,19 @@ const benefits: Array<BenefitType> = [
         icon: <HomeModernIcon className="h-6 w-6" />,
         title: "State of the Art Facilities",
         description:
-            "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
+            "Train with the best: our top-tier equipment and modern amenities set the stage for your fitness success.",
     },
     {
         icon: <UserGroupIcon className="h-6 w-6" />,
         title: "100's of Diverse Classes",
         description:
-            "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
+            "Find your fit: choose from a vast array of classes that cater to every interest and fitness level.",
     },
     {
         icon: <AcademicCapIcon className="h-6 w-6" />,
         title: "Expert and Pro Trainers",
         description:
-            "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
+            "Learn from the finest: our expert trainers bring unparalleled knowledge to craft your optimal workout.",
     },
 ];
 
@@ -131,18 +131,14 @@ const Benefits = ({ setSelectedPage }: Props) => {
                             }}
                         >
                             <p className="my-5">
-                                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                                Felis orci diam odio.
+                                Join millions of satisfied members on their journey to wellness. Embrace a transformative
+                                fitness experience that empowers your body and mind. Our supportive community and expert
+                                guidance are the stepping stones to your personal best.
                             </p>
                             <p className="mb-5">
-                                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                                enim mattis odio in risus nunc.
+                                Discover a place where fitness goals are met with cheers, and every workout is an opportunity
+                                for growth. From strength to flexibility, from the serene flow of yoga to the energetic pulse of cardio,
+                                find your rhythm with us.
                             </p>
                         </motion.div>
 
