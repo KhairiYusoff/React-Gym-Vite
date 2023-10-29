@@ -13,33 +13,35 @@ const classes: Array<ClassType> = [
     {
         name: "Weight Training Classes",
         description:
-            "TBA",
+            "Build strength and endurance through guided weightlifting routines suitable for all levels.",
         image: image1,
     },
     {
         name: "Yoga Classes",
+        description: "Enhance flexibility and mindfulness with yoga postures for balance and strength.",
         image: image2,
     },
     {
         name: "Ab Core Classes",
         description:
-            "TBA",
+            "Target your core with exercises designed to strengthen and tone your midsection.",
         image: image3,
     },
     {
         name: "Adventure Classes",
         description:
-            "Adventure Classes",
+            "Combine fitness with the great outdoors in our dynamic, nature-based workouts.",
         image: image4,
     },
     {
         name: "Fitness Classes",
+        description: "Varied workouts from HIIT to dance that energize, burn calories, and boost health.",
         image: image5,
     },
     {
         name: "Training Classes",
         description:
-            "TBA",
+            "Personalized training to improve technique, function, and athletic performance.",
         image: image6,
     },
 ];
