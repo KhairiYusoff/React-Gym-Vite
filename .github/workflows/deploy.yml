@@ -1,6 +1,7 @@
 name: Deploy Gym Vite App To Github Pages
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
