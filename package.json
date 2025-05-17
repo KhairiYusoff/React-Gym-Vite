@@ -3,12 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "tsc && vite build",
+  "build:gh": "GITHUB_PAGES=true vite build",
+  "preview": "vite preview",
+  "deploy": "npm run build:gh && gh-pages -d dist"
+},
   "dependencies": {
     "@heroicons/react": "^2.0.14",
     "framer-motion": "^9.0.1",
