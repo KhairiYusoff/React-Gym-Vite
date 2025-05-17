@@ -7,8 +7,8 @@ const Footer = () => {
                 <div className="mt-16 basis-1/2 md:mt-0">
                     <img alt="logo" src={Logo} />
                     <p className="my-5">
-                        Transforming the way you think about fitness. Dive into a world where workouts become a lifestyle,
-                        and every challenge pushes you to evolve. We're not just a gym - we're a movement.
+                    Your only rival is your comfort zone.
+                    Break through. Level up. Become the strongest version of you.
                     </p>
                     <p>© Evogym All Rights Reserved.</p>
                 </div>
