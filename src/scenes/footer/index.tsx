@@ -5,7 +5,6 @@ const Footer = () => {
         <footer className="bg-primary-100 py-16">
             <div className="justify-content mx-auto w-5/6 gap-16 md:flex">
                 <div className="mt-16 basis-1/2 md:mt-0">
-                    <p className="text-green-700 font-bold">[DEPLOYMENT TEST] This message should appear on all environments! (Footer)</p>
                     <img alt="logo" src={Logo} />
                     <p className="my-5">
                     Your only rival is your comfort zone.
