@@ -1,0 +1,35 @@
+name: Deploy to Cloud Run
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Google Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2
+        with:
+          project_id: ${{ secrets.GCP_PROJECT }}
+          service_account_key: ${{ secrets.GCP_SA_KEY }}
+          export_default_credentials: true
+
+      - name: Build and push Docker image
+        run: |
+          gcloud auth configure-docker us-central1-docker.pkg.dev --quiet
+          docker build --platform linux/amd64 -t us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT }}/cloud-run-source-deploy/react-gym-vite:latest .
+          docker push us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT }}/cloud-run-source-deploy/react-gym-vite:latest
+
+      - name: Deploy to Cloud Run
+        run: |
+          gcloud run deploy react-gym-vite \
+            --image us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT }}/cloud-run-source-deploy/react-gym-vite:latest \
+            --region ${{ secrets.GCP_REGION }} \
+            --platform managed \
+            --allow-unauthenticated
